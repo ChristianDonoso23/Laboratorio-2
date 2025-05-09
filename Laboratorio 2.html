@@ -10,28 +10,31 @@
   <!-- Nav Tabs -->
   <ul class="nav nav-tabs" id="myTab" role="tablist">
     <li class="nav-item" role="presentation">
-      <a class="nav-link active" id="tab1-tab" data-bs-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="true">Espaciado</a>
+      <a class="nav-link active" id="tab1-tab" data-bs-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="true">Introducción</a>
     </li>
     <li class="nav-item" role="presentation">
-      <a class="nav-link" id="tab2-tab" data-bs-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">Texto</a>
+      <a class="nav-link" id="tab2-tab" data-bs-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">Espaciado</a>
     </li>
     <li class="nav-item" role="presentation">
-      <a class="nav-link" id="tab3-tab" data-bs-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">Color</a>
+      <a class="nav-link" id="tab3-tab" data-bs-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">Texto</a>
     </li>
     <li class="nav-item" role="presentation">
-        <a class="nav-link" id="tab3-tab" data-bs-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">Visualización</a>
+        <a class="nav-link" id="tab4-tab" data-bs-toggle="tab" href="#tab4" role="tab" aria-controls="tab4" aria-selected="false">Color</a>
       </li>
     <li class="nav-item" role="presentation">
-      <a class="nav-link" id="tab3-tab" data-bs-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">FlexBox</a>
+      <a class="nav-link" id="tab5-tab" data-bs-toggle="tab" href="#tab5" role="tab" aria-controls="tab5" aria-selected="false">Visualización</a>
     </li>
     <li class="nav-item" role="presentation">
-        <a class="nav-link" id="tab3-tab" data-bs-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">Tamaño</a>
+        <a class="nav-link" id="tab6-tab" data-bs-toggle="tab" href="#tab6" role="tab" aria-controls="tab6" aria-selected="false">Flexbox</a>
     </li>
     <li class="nav-item" role="presentation">
-        <a class="nav-link" id="tab3-tab" data-bs-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">Borde</a>
+        <a class="nav-link" id="tab7-tab" data-bs-toggle="tab" href="#tab7" role="tab" aria-controls="tab7" aria-selected="false">Tamaño</a>
     </li>
     <li class="nav-item" role="presentation">
-        <a class="nav-link" id="tab3-tab" data-bs-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">Posición</a>
+        <a class="nav-link" id="tab8-tab" data-bs-toggle="tab" href="#tab8" role="tab" aria-controls="tab8" aria-selected="false">Borde</a>
+    </li>
+    <li class="nav-item" role="presentation">
+        <a class="nav-link" id="tab9-tab" data-bs-toggle="tab" href="#tab9" role="tab" aria-controls="tab9" aria-selected="false">Posición</a>
     </li>
   </ul>
 
@@ -52,6 +55,83 @@
       <p>Incluye un formulario de contacto o tus datos aquí.</p>
     </div>
 
+    <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab4-tab">
+      <!--Grid de 2 columnas para tipo de colores para el texto-->
+      <h4 class="text-muted">Texto</h4>
+      <div class="d-grid gap-2 mb-3" style="grid-template-columns: repeat(2,1fr)">
+        <p><strong>Código utilizado</strong></p>
+        <p><strong>Resultado</strong></p>
+        &lt;p class="text-primary"&gt;Texto azul (primary)&lt;/p&gt;
+        <p class="text-primary">Texto azul (primary)</p>
+        &lt;p class="text-success"&gt;Texto verde (success)&lt;/p&gt;
+        <p class="text-success">Texto verde (success)</p>
+        &lt;p class="text-danger"&gt;Texto rojo (danger)&lt;/p&gt;
+        <p class="text-danger">Texto rojo (danger)</p>
+        &lt;p class="text-warning"&gt;Texto amarillo (warning)&lt;/p&gt;
+        <p class="text-warning">Texto amarillo (warning)</p>
+        &lt;p class="text-info"&gt;Texto azul claro (info)&lt;/p&gt;
+        <p class="text-info">Texto azul claro (info)</p>
+        &lt;p class="text-muted"&gt;Texto atenuado&lt;/p&gt;
+        <p class="text-muted">Texto atenuado</p>
+      </div>
+
+      <!--Grid de 2 columnas para tipo de colores para el fondo-->
+      <h4 class="text-muted">Fondo</h4>
+      <div class="d-grid gap-2 mb-3" style="grid-template-columns: repeat(2,1fr)">
+        <p><strong>Código utilizado</strong></p>
+        <p><strong>Resultado</strong></p>
+        &lt;div class="bg-primary"&gt;Fondo azul&lt;/div&gt;
+        <div class="bg-primary text-white p-3 mb-2">Fondo azul</div>
+        &lt;div class="bg-success"&gt;Fondo verde&lt;/div&gt;
+        <div class="bg-success text-white p-3 mb-2">Fondo verde</div>
+        &lt;div class="bg-warning"&gt;Fondo amarillo&lt;/div&gt;
+        <div class="bg-warning text-dark p-3 mb-2">Fondo amarillo</div>
+        &lt;div class="bg-light"&gt;Fondo claro&lt;/div&gt;
+        <div class="bg-light text-dark p-3 mb-2">Fondo claro</div>
+      </div>
+    </div>
+
+
+    <div class="tab-pane fade" id="tab5" role="tabpanel" aria-labelledby="tab5-tab">
+      <!--Grid de 2 columnas para tipo de visualizaciones de los elementos-->
+      <h4 class="text-muted">Visualización</h4>
+      <div class="d-grid gap-2 mb-3" style="grid-template-columns: repeat(2,1fr)">
+        <p><strong>Código utilizado</strong></p>
+        <p><strong>Resultado</strong></p>
+        &lt;div class="d-none"&gt;No visible&lt;/div&gt;
+        <div class="d-none">No visible</div><p>No visible</p>
+        &lt;div class="d-block"&gt;Visible como bloque&lt;/div&gt;
+        <div class="d-block bg-light p-2 mb-2 border">Visible como bloque</div>
+        &lt;div class="d-inline"&gt;Visible en línea&lt;/div&gt;
+        <div class="d-inline bg-light p-2 border">Visible en línea</div>
+        &lt;div class="d-flex"&gt;Contenedor flex&lt;/div&gt;
+        <div class="d-flex bg-light p-2 mb-2 border mt-2">Contenedor flex</div>
+        &lt;!-- Responsive --&gt;<br>
+        &lt;div class="d-md-none d-lg-block"&gt;Oculto en md, visible en lg&lt;/div&gt;
+        <div class="d-md-none d-lg-block bg-warning p-2 mt-2 border"></div>
+      </div>
+    </div>
+
+    <div class="tab-pane fade" id="tab6" role="tabpanel" aria-labelledby="tab6-tab">
+      <!--Grid de 2 columnas para tipos de flexbox-->
+      <h4 class="text-muted">Flexbox</h4>
+      <div class="d-grid gap-2 mb-3" style="grid-template-columns: repeat(2,1fr)">
+        <p><strong>Código utilizado</strong></p>
+        <p><strong>Resultado</strong></p>
+        &lt;div class="d-flex justify-content-start"&gt;Justificado al inicio&lt;/div&gt;
+        <div class="d-flex justify-content-start bg-light p-2 mb-2 border">Justificado al inicio</div>
+        &lt;div class="d-flex justify-content-center"&gt;Centrado&lt;/div&gt;
+        <div class="d-flex justify-content-center bg-light p-2 mb-2 border">Centrado</div>
+        &lt;div class="d-flex justify-content-between"&gt;Espacio entre&lt;/div&gt;
+        <div class="d-flex justify-content-between bg-light p-2 mb-2 border">Espacio entre</div>
+        &lt;div class="d-flex align-items-start"&gt;Alineado arriba&lt;/div&gt;
+        <div class="d-flex align-items-start bg-light p-2 mb-2 border">Alineado arriba</div>
+        &lt;div class="d-flex align-items-center"&gt;Alineado al centro&lt;/div&gt;
+        <div class="d-flex align-items-center bg-light p-2 mb-2 border">Alineado al centro</div>
+        &lt;div class="d-flex flex-column"&gt;Dirección columna&lt;/div&gt;
+        <div class="d-flex flex-column bg-light p-2 mb-2 border">Dirección columna</div>
+      </div>
+    </div>
   </div>
 
   <!-- Bootstrap JS -->
