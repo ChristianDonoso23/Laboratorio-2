@@ -1,47 +1,59 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <title>Nav Tabs Bootstrap</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body class="p-5">
-    <h1 class="text-center text-primary">Helpers CSS en Bootstrap</h1>
+  <h1 class="text-center text-primary">Helpers CSS en Bootstrap</h1>
   <!-- Nav Tabs -->
   <ul class="nav nav-tabs" id="myTab" role="tablist">
     <li class="nav-item" role="presentation">
-      <a class="nav-link active" id="tab1-tab" data-bs-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="true">Introducción</a>
+      <a class="nav-link active" id="tab1-tab" data-bs-toggle="tab" href="#tab1" role="tab" aria-controls="tab1"
+        aria-selected="true">Introducción</a>
     </li>
     <li class="nav-item" role="presentation">
-      <a class="nav-link" id="tab2-tab" data-bs-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">Espaciado</a>
+      <a class="nav-link" id="tab2-tab" data-bs-toggle="tab" href="#tab2" role="tab" aria-controls="tab2"
+        aria-selected="false">Espaciado</a>
     </li>
     <li class="nav-item" role="presentation">
-      <a class="nav-link" id="tab3-tab" data-bs-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">Texto</a>
+      <a class="nav-link" id="tab3-tab" data-bs-toggle="tab" href="#tab3" role="tab" aria-controls="tab3"
+        aria-selected="false">Texto</a>
     </li>
     <li class="nav-item" role="presentation">
-        <a class="nav-link" id="tab4-tab" data-bs-toggle="tab" href="#tab4" role="tab" aria-controls="tab4" aria-selected="false">Color</a>
-      </li>
-    <li class="nav-item" role="presentation">
-      <a class="nav-link" id="tab5-tab" data-bs-toggle="tab" href="#tab5" role="tab" aria-controls="tab5" aria-selected="false">Visualización</a>
+      <a class="nav-link" id="tab4-tab" data-bs-toggle="tab" href="#tab4" role="tab" aria-controls="tab4"
+        aria-selected="false">Color</a>
     </li>
     <li class="nav-item" role="presentation">
-        <a class="nav-link" id="tab6-tab" data-bs-toggle="tab" href="#tab6" role="tab" aria-controls="tab6" aria-selected="false">Flexbox</a>
+      <a class="nav-link" id="tab5-tab" data-bs-toggle="tab" href="#tab5" role="tab" aria-controls="tab5"
+        aria-selected="false">Visualización</a>
     </li>
     <li class="nav-item" role="presentation">
-        <a class="nav-link" id="tab7-tab" data-bs-toggle="tab" href="#tab7" role="tab" aria-controls="tab7" aria-selected="false">Tamaño</a>
+      <a class="nav-link" id="tab6-tab" data-bs-toggle="tab" href="#tab6" role="tab" aria-controls="tab6"
+        aria-selected="false">Flexbox</a>
     </li>
     <li class="nav-item" role="presentation">
-        <a class="nav-link" id="tab8-tab" data-bs-toggle="tab" href="#tab8" role="tab" aria-controls="tab8" aria-selected="false">Borde</a>
+      <a class="nav-link" id="tab7-tab" data-bs-toggle="tab" href="#tab7" role="tab" aria-controls="tab7"
+        aria-selected="false">Tamaño</a>
     </li>
     <li class="nav-item" role="presentation">
-        <a class="nav-link" id="tab9-tab" data-bs-toggle="tab" href="#tab9" role="tab" aria-controls="tab9" aria-selected="false">Posición</a>
+      <a class="nav-link" id="tab8-tab" data-bs-toggle="tab" href="#tab8" role="tab" aria-controls="tab8"
+        aria-selected="false">Borde</a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a class="nav-link" id="tab9-tab" data-bs-toggle="tab" href="#tab9" role="tab" aria-controls="tab9"
+        aria-selected="false">Posición</a>
     </li>
   </ul>
 
   <!-- Tab Content -->
   <div class="tab-content mt-3" id="myTabContent">
     <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
-      <p>Bootstrap incluye una variedad de clases helper (auxiliares) que permiten ajustar rápidamente el diseño, el espaciado, la visibilidad y otros aspectos de los elementos sin necesidad de escribir CSS personalizado.
+      <p>Bootstrap incluye una variedad de clases helper (auxiliares) que permiten ajustar rápidamente el diseño, el
+        espaciado, la visibilidad y otros aspectos de los elementos sin necesidad de escribir CSS personalizado.
       </p>
     </div>
     <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
@@ -50,123 +62,151 @@
       <p> {property} {sides} - {size} </p>
       <div class="container mt-4">
         <div class="row">
-        <!-- Columna Property -->
+          <!-- Columna Property -->
           <div class="col-md-4">
             <h5 class="text-center fw-bold">Property</h5>
             <ul class="list-unstyled text-center">
-            <li><strong>m</strong> - margin</li>
-            <li><strong>p</strong> - padding</li>
+              <li><strong>m</strong> - margin</li>
+              <li><strong>p</strong> - padding</li>
             </ul>
           </div>
 
           <!-- Columna Sides -->
           <div class="col-md-4">
             <h5 class="text-center fw-bold">Sides</h5>
-              <ul class="list-unstyled text-center">
-                <li><strong>t</strong> - top</li>
-                <li><strong>b</strong> - bottom</li>
-                <li><strong>l</strong> - left</li>
-                <li><strong>r</strong> - right</li>
-                <li><strong>x</strong> - izquierda y derecha</li>
-                <li><strong>y</strong> - arriba y abajo</li>
-                <li><strong>vacío</strong> - aplica a los 4 lados</li>
-              </ul>
+            <ul class="list-unstyled text-center">
+              <li><strong>t</strong> - top</li>
+              <li><strong>b</strong> - bottom</li>
+              <li><strong>l</strong> - left</li>
+              <li><strong>r</strong> - right</li>
+              <li><strong>x</strong> - izquierda y derecha</li>
+              <li><strong>y</strong> - arriba y abajo</li>
+              <li><strong>vacío</strong> - aplica a los 4 lados</li>
+            </ul>
           </div>
 
           <!-- Columna Size -->
           <div class="col-md-4">
             <h5 class="text-center fw-bold">Size</h5>
-              <ul class="list-unstyled text-center">
-                <li><strong>0</strong> - 0rem</li>
-                <li><strong>1</strong> - 0.25rem</li>
-                <li><strong>2</strong> - 0.5rem</li>
-                <li><strong>3</strong> - 1rem</li>
-                <li><strong>4</strong> - 1.5rem</li>
-                <li><strong>5</strong> - 3rem</li>
-                <li><strong>auto</strong> - auto</li>
-              </ul>
+            <ul class="list-unstyled text-center">
+              <li><strong>0</strong> - 0rem</li>
+              <li><strong>1</strong> - 0.25rem</li>
+              <li><strong>2</strong> - 0.5rem</li>
+              <li><strong>3</strong> - 1rem</li>
+              <li><strong>4</strong> - 1.5rem</li>
+              <li><strong>5</strong> - 3rem</li>
+              <li><strong>auto</strong> - auto</li>
+            </ul>
           </div>
         </div>
       </div>
       <div class="container mt-4">
         <div class="row fw-bold border-bottom pb-2 mb-3">
-        <div class="col-md-6">Código Utilizado</div>
-        <div class="col-md-6">Resultado</div>
-      </div>
+          <div class="col-md-6">Código Utilizado</div>
+          <div class="col-md-6">Resultado</div>
+        </div>
 
-      <div class="row align-items-center mb-3">
-        <div class="col-md-6">
-          <code class="text-dark">&lt;div class="mt-3"&gt;Margen superior de 1rem&lt;/div&gt;</code>
+        <div class="row align-items-center mb-3">
+          <div class="col-md-6">
+            <code class="text-dark">&lt;div class="mt-3"&gt;Margen superior de 1rem&lt;/div&gt;</code>
+          </div>
+          <div class="col-md-6">
+            <div class="mt-3 bg-light p-2 border">Margen superior de 1rem</div>
+          </div>
         </div>
-        <div class="col-md-6">
-          <div class="mt-3 bg-light p-2 border">Margen superior de 1rem</div>
-        </div>
-      </div>
 
-      <div class="row align-items-center mb-3">
-        <div class="col-md-6">
-          <code class="text-dark">&lt;div class="px-4"&gt;Relleno izquierdo y derecho de 1.5rem&lt;/div&gt;</code>
+        <div class="row align-items-center mb-3">
+          <div class="col-md-6">
+            <code class="text-dark">&lt;div class="px-4"&gt;Relleno izquierdo y derecho de 1.5rem&lt;/div&gt;</code>
+          </div>
+          <div class="col-md-6">
+            <div class="px-4 bg-light p-2 border">Relleno izquierdo y derecho de 1.5rem</div>
+          </div>
         </div>
-        <div class="col-md-6">
-          <div class="px-4 bg-light p-2 border">Relleno izquierdo y derecho de 1.5rem</div>
-        </div>
-      </div>
 
-      <div class="row align-items-center mb-3">
-        <div class="col-md-6">
-          <code class="text-dark">&lt;div class="mx-auto"&gt;Margen izquierdo y derecho automático (centrado)&lt;/div&gt;</code>
-        </div>
-        <div class="col-md-6">
-          <div class="mx-auto bg-light p-2 border" style="width: fit-content;">Margen izquierdo y derecho automático (centrado)</div>
+        <div class="row align-items-center mb-3">
+          <div class="col-md-6">
+            <code
+              class="text-dark">&lt;div class="mx-auto"&gt;Margen izquierdo y derecho automático (centrado)&lt;/div&gt;</code>
+          </div>
+          <div class="col-md-6">
+            <div class="mx-auto bg-light p-2 border" style="width: fit-content;">Margen izquierdo y derecho automático
+              (centrado)</div>
+          </div>
         </div>
       </div>
-    </div>
     </div>
     <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
       <div class="container mt-5">
-      <h4 class="text-muted">Helpers de Texto</h4>
-      <h5 class="mt-4">Alineación</h5>
-      <div class="d-grid" style="grid-template-columns: 1fr 1fr; gap: 1rem;">
-        <div><code class="text-dark">&lt;p class="text-start"&gt;Texto alineado a la izquierda&lt;/p&gt;</code></div>
-        <div><p class="text-start border p-2 bg-light">Texto alineado a la izquierda</p></div>
-        <div><code class="text-dark">&lt;p class="text-center"&gt;Texto centrado&lt;/p&gt;</code></div>
-        <div><p class="text-center border p-2 bg-light">Texto centrado</p></div>
-        <div><code class="text-dark">&lt;p class="text-end"&gt;Texto alineado a la derecha&lt;/p&gt;</code></div>
-        <div><p class="text-end border p-2 bg-light">Texto alineado a la derecha</p></div>
-      </div>
-      <h5 class="mt-5">Transformación</h5>
-      <div class="d-grid" style="grid-template-columns: 1fr 1fr; gap: 1rem;">
-        <div><code class="text-dark">&lt;p class="text-lowercase"&gt;MINÚSCULAS&lt;/p&gt;</code></div>
-        <div><p class="text-lowercase border p-2 bg-light">MINÚSCULAS</p></div>
-        <div><code class="text-dark">&lt;p class="text-uppercase"&gt;mayúsculas&lt;/p&gt;</code></div>
-        <div><p class="text-uppercase border p-2 bg-light">mayúsculas</p></div>
-        <div><code class="text-dark">&lt;p class="text-capitalize"&gt;text capitalizado&lt;/p&gt;</code></div>
-        <div><p class="text-capitalize border p-2 bg-light">text capitalizado</p></div>
-      </div>
+        <h4 class="text-muted">Helpers de Texto</h4>
+        <h5 class="mt-4">Alineación</h5>
+        <div class="d-grid" style="grid-template-columns: 1fr 1fr; gap: 1rem;">
+          <div><code class="text-dark">&lt;p class="text-start"&gt;Texto alineado a la izquierda&lt;/p&gt;</code></div>
+          <div>
+            <p class="text-start border p-2 bg-light">Texto alineado a la izquierda</p>
+          </div>
+          <div><code class="text-dark">&lt;p class="text-center"&gt;Texto centrado&lt;/p&gt;</code></div>
+          <div>
+            <p class="text-center border p-2 bg-light">Texto centrado</p>
+          </div>
+          <div><code class="text-dark">&lt;p class="text-end"&gt;Texto alineado a la derecha&lt;/p&gt;</code></div>
+          <div>
+            <p class="text-end border p-2 bg-light">Texto alineado a la derecha</p>
+          </div>
+        </div>
+        <h5 class="mt-5">Transformación</h5>
+        <div class="d-grid" style="grid-template-columns: 1fr 1fr; gap: 1rem;">
+          <div><code class="text-dark">&lt;p class="text-lowercase"&gt;MINÚSCULAS&lt;/p&gt;</code></div>
+          <div>
+            <p class="text-lowercase border p-2 bg-light">MINÚSCULAS</p>
+          </div>
+          <div><code class="text-dark">&lt;p class="text-uppercase"&gt;mayúsculas&lt;/p&gt;</code></div>
+          <div>
+            <p class="text-uppercase border p-2 bg-light">mayúsculas</p>
+          </div>
+          <div><code class="text-dark">&lt;p class="text-capitalize"&gt;text capitalizado&lt;/p&gt;</code></div>
+          <div>
+            <p class="text-capitalize border p-2 bg-light">text capitalizado</p>
+          </div>
+        </div>
 
-      <h5 class="mt-5">Peso y estilo</h5>
-      <div class="d-grid" style="grid-template-columns: 1fr 1fr; gap: 1rem;">
-        <div><code class="text-dark">&lt;p class="fw-bold"&gt;Texto en negrita&lt;/p&gt;</code></div>
-        <div><p class="fw-bold border p-2 bg-light">Texto en negrita</p></div>
-        <div><code class="text-dark">&lt;p class="fw-bolder"&gt;Texto más negrita&lt;/p&gt;</code></div>
-        <div><p class="fw-bolder border p-2 bg-light">Texto más negrita</p></div>
-        <div><code class="text-dark">&lt;p class="fw-normal"&gt;Texto normal&lt;/p&gt;</code></div>
-        <div><p class="fw-normal border p-2 bg-light">Texto normal</p></div>
-        <div><code class="text-dark">&lt;p class="fw-light"&gt;Texto ligero&lt;/p&gt;</code></div>
-        <div><p class="fw-light border p-2 bg-light">Texto ligero</p></div>
-        <div><code class="text-dark">&lt;p class="fst-italic"&gt;Texto en cursiva&lt;/p&gt;</code></div>
-        <div><p class="fst-italic border p-2 bg-light">Texto en cursiva</p></div>
-      </div>
+        <h5 class="mt-5">Peso y estilo</h5>
+        <div class="d-grid" style="grid-template-columns: 1fr 1fr; gap: 1rem;">
+          <div><code class="text-dark">&lt;p class="fw-bold"&gt;Texto en negrita&lt;/p&gt;</code></div>
+          <div>
+            <p class="fw-bold border p-2 bg-light">Texto en negrita</p>
+          </div>
+          <div><code class="text-dark">&lt;p class="fw-bolder"&gt;Texto más negrita&lt;/p&gt;</code></div>
+          <div>
+            <p class="fw-bolder border p-2 bg-light">Texto más negrita</p>
+          </div>
+          <div><code class="text-dark">&lt;p class="fw-normal"&gt;Texto normal&lt;/p&gt;</code></div>
+          <div>
+            <p class="fw-normal border p-2 bg-light">Texto normal</p>
+          </div>
+          <div><code class="text-dark">&lt;p class="fw-light"&gt;Texto ligero&lt;/p&gt;</code></div>
+          <div>
+            <p class="fw-light border p-2 bg-light">Texto ligero</p>
+          </div>
+          <div><code class="text-dark">&lt;p class="fst-italic"&gt;Texto en cursiva&lt;/p&gt;</code></div>
+          <div>
+            <p class="fst-italic border p-2 bg-light">Texto en cursiva</p>
+          </div>
+        </div>
 
-      <h5 class="mt-5">Tamaño</h5>
-      <div class="d-grid" style="grid-template-columns: 1fr 1fr; gap: 1rem;">
-        <div><code class="text-dark">&lt;p class="fs-1"&gt;Tamaño 1 (2.5rem)&lt;/p&gt;</code></div>
-        <div><p class="fs-1 border p-2 bg-light">Tamaño 1 (2.5rem)</p></div>
-        <div><code class="text-dark">&lt;p class="fs-6"&gt;Tamaño 6 (1rem)&lt;/p&gt;</code></div>
-        <div><p class="fs-6 border p-2 bg-light">Tamaño 6 (1rem)</p></div>
+        <h5 class="mt-5">Tamaño</h5>
+        <div class="d-grid" style="grid-template-columns: 1fr 1fr; gap: 1rem;">
+          <div><code class="text-dark">&lt;p class="fs-1"&gt;Tamaño 1 (2.5rem)&lt;/p&gt;</code></div>
+          <div>
+            <p class="fs-1 border p-2 bg-light">Tamaño 1 (2.5rem)</p>
+          </div>
+          <div><code class="text-dark">&lt;p class="fs-6"&gt;Tamaño 6 (1rem)&lt;/p&gt;</code></div>
+          <div>
+            <p class="fs-6 border p-2 bg-light">Tamaño 6 (1rem)</p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
 
     <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab4-tab">
       <!--Grid de 2 columnas para tipo de colores para el texto-->
@@ -212,7 +252,8 @@
         <p><strong>Código utilizado</strong></p>
         <p><strong>Resultado</strong></p>
         &lt;div class="d-none"&gt;No visible&lt;/div&gt;
-        <div class="d-none">No visible</div><p>No visible</p>
+        <div class="d-none">No visible</div>
+        <p>No visible</p>
         &lt;div class="d-block"&gt;Visible como bloque&lt;/div&gt;
         <div class="d-block bg-light p-2 mb-2 border">Visible como bloque</div>
         &lt;div class="d-inline"&gt;Visible en línea&lt;/div&gt;
@@ -245,10 +286,203 @@
         <div class="d-flex flex-column bg-light p-2 mb-2 border">Dirección columna</div>
       </div>
     </div>
+
+    <div class="tab-pane fade" id="tab7" role="tabpanel" aria-labelledby="tab7-tab">
+      <!--Grid de 2 columnas para tipos de tamaños-->
+      <h4 class="text-muted">Helpers de Tamaño</h4>
+      <div class="d-grid gap-2 mb-3" style="grid-template-columns: repeat(2,1fr)">
+        <p><strong>Código utilizado</strong></p>
+        <p><strong>Resultado</strong></p>
+        <p><strong>Ancho</strong></p>
+        <p><strong>%</strong></p>
+        <code class="text-dark">&lt;div class="w-25"&gt;Ancho 25%&lt;/div&gt;</code>
+        <div class="w-25 bg-light  border">Ancho 25%</div>
+        <code class="text-dark">&lt;div class="w-50"&gt;Ancho 50%&lt;/div&gt;</code>
+        <div class="w-50 bg-light p-2 mb-2 border">Ancho 50%</div>
+        <code class="text-dark">&lt;div class="w-75"&gt;Ancho 75%&lt;/div&gt;</code>
+        <div class="w-75 bg-light p-2 mb-2 border">Ancho 75%</div>
+        <code class="text-dark">&lt;div class="w-100"&gt;Ancho 100%&lt;/div&gt;</code>
+        <div class="w-100 bg-light p-2 mb-2 border">Ancho 100%</div>
+        <p><strong>Alto</strong></p>
+        <p><strong>%</strong></p>
+        <code class="text-dark">&lt;div class="h-25"&gt;Alto 50%&lt;/div&gt;</code>
+        <div class="h-25 bg-light p-2 mb-2 border">Alto 25%</div>
+        <code class="text-dark">&lt;div class="h-50"&gt;Alto 50%&lt;/div&gt;</code>
+        <div class="h-50 bg-light p-2 mb-2 border">Alto 50%</div>
+        <code class="text-dark">&lt;div class="h-75"&gt;Alto 75%&lt;/div&gt;</code>
+        <div class="h-75 bg-light p-2 mb-2 border text-auto">Alto 75%</div>
+        <code class="text-dark">&lt;div class="h-100"&gt;Alto 100%&lt;/div&gt;</code>
+        <div class="h-100 bg-light p-2 mb-2 border">Alto 100%</div>
+      </div>
+    </div>
+
+    <div class="tab-pane fade" id="tab8" role="tabpanel" aria-labelledby="tab8-tab">
+      <!--Grid de 2 columnas para tipos de bordes-->
+      <p>hola</p>
+      <h4 class="text-muted">Helpers de Borde </h4>
+      <div class="d-grid gap-2 mb-3" style="grid-template-columns: repeat(2,1fr)">
+        <p><strong>Código utilizado</strong></p>
+        <p><strong>Resultado</strong></p>
+        <code class="text-dark">&lt;div class="border"&gt;Borde completo&lt;/div&gt;</code>
+        <div class="border p-2 mb-2">Borde completo</div>
+        <code class="text-dark">&lt;div class="border-top"&gt;Borde superior&lt;/div&gt;</code>
+        <div class="border-top p-2 mb-2">Borde superior</div>
+        <code class="text-dark">&lt;div class="border border-primary"&gt;Borde con color&lt;/div&gt;</code>
+        <div class="border border-primary p-2 mb-2">Borde con color</div>
+        <code class="text-dark">&lt;div class="border rounded"&gt;Borde redondeado&lt;/div&gt;</code>
+        <div class="border rounded p-2 mb-2">Borde redondeado</div>
+        <code class="text-dark">&lt;div class="border rounded-circle"&gt;Borde circular&lt;/div&gt;</code>
+        <div class="border rounded-circle p-2 mb-2">Borde circular</div>
+        <code class="text-dark">&lt;div class="border-0"&gt;Sin borde&lt;/div&gt;</code>
+        <div class="border-0 p-2 mb-2">Sin borde</div>
+        <code class="text-dark">&lt;div class="rounded-pill"&gt;Borde en píldora&lt;/div&gt;</code>
+        <div class="rounded-pill border p-2 mb-2">Borde en píldora</div>
+        <code class="text-dark">&lt;div class="border-bottom"&gt;Borde inferior&lt;/div&gt;</code>
+        <div class="border-bottom p-2 mb-2">Borde inferior</div>
+        <code class="text-dark">&lt;div class="border-start"&gt;Borde izquierdo&lt;/div&gt;</code>
+        <div class="border-start p-2 mb-2">Borde izquierdo</div>
+        <code class="text-dark">&lt;div class="border-end"&gt;Borde derecho&lt;/div&gt;</code>
+        <div class="border-end p-2 mb-2">Borde derecho</div>
+        <code class="text-dark">&lt;div class="border border-success"&gt;Borde verde&lt;/div&gt;</code>
+        <div class="border border-success p-2 mb-2">Borde verde</div>
+        <code class="text-dark">&lt;div class="border border-danger"&gt;Borde rojo&lt;/div&gt;</code>
+        <div class="border border-danger p-2 mb-2">Borde rojo</div>
+        <code class="text-dark">&lt;div class="border border-warning"&gt;Borde amarillo&lt;/div&gt;</code>
+        <div class="border border-warning p-2 mb-2">Borde amarillo</div>
+        <code class="text-dark">&lt;div class="border border-info"&gt;Borde azul claro&lt;/div&gt;</code>
+        <div class="border border-info p-2 mb-2">Borde azul claro</div>
+        <p><strong>Botones sin la clase ".btn" solo con la clase ".border"</strong></p>
+        <p><strong>Resultado</strong></p>
+        <code class="text-dark">&lt;button class="border"&gt;Botón con borde&lt;/button&gt;</code>
+        <button class="border p-2 mb-2">Botón con borde</button>
+        <code class="text-dark">&lt;button class="border-top"&gt;Botón con borde superior&lt;/button&gt;</code>
+        <button class="border-top p-2 mb-2">Botón con borde superior</button>
+        <code
+          class="text-dark">&lt;button class="border border-primary"&gt;Botón con borde primario&lt;/button&gt;</code>
+        <button class="border border-primary p-2 mb-2">Botón con borde primario</button>
+        <code class="text-dark">&lt;button class="border rounded"&gt;Botón con borde redondeado&lt;/button&gt;</code>
+        <button class="border rounded p-2 mb-2">Botón con borde redondeado</button>
+        <code
+          class="text-dark">&lt;button class="border rounded-circle"&gt;Botón con borde circular&lt;/button&gt;</code>
+        <button class="border rounded-circle p-2 mb-2">Botón con borde circular</button>
+        <code class="text-dark">&lt;button class="border-0"&gt;Botón sin borde&lt;/button&gt;</code>
+        <button class="border-0 p-2 mb-2">Botón sin borde</button>
+        <code class="text-dark">&lt;button class="border-2"&gt;Botón con ancho de 2px &lt;/button&gt;</code>
+        <button class="border-2 p-2 mb-2">Botón con ancho de 2px </button>
+        <code class="text-dark">&lt;button class="border-5"&gt;Botón con ancho de 5px &lt;/button&gt;</code>
+        <button class="border-5 p-2 mb-2">Botón con ancho de 5px </button>
+        <code class="text-dark">&lt;button class="border-bottom"&gt;Botón con borde inferior&lt;/button&gt;</code>
+        <button class="border-bottom p-2 mb-2">Botón con borde inferior</button>
+        <code class="text-dark">&lt;button class="border-start"&gt;Botón con borde izquierdo&lt;/button&gt;</code>
+        <button class="border-start p-2 mb-2">Botón con borde izquierdo</button>
+        <code class="text-dark">&lt;button class="border-end"&gt;Botón con borde derecho&lt;/button&gt;</code>
+        <button class="border-end p-2 mb-2">Botón con borde derecho</button>
+        <code class="text-dark">&lt;button class="border border-success"&gt;Botón con borde verde&lt;/button&gt;</code>
+        <button class="border border-success p-2 mb-2">Botón con borde verde</button>
+        <code class="text-dark">&lt;button class="border border-danger"&gt;Botón con borde rojo&lt;/button&gt;</code>
+        <button class="border border-danger p-2 mb-2">Botón con borde rojo</button>
+        <code
+          class="text-dark">&lt;button class="border border-warning"&gt;Botón con borde amarillo&lt;/button&gt;</code>
+        <button class="border border-warning p-2 mb-2">Botón con borde amarillo</button>
+        <code
+          class="text-dark">&lt;button class="border border-info"&gt;Botón con borde azul claro&lt;/button&gt;</code>
+        <button class="border border-info p-2 mb-2">Botón con borde azul claro</button>
+
+
+      </div>
+    </div>
+
+    <div class="tab-pane fade" id="tab9" role="tabpanel" aria-labelledby="tab9-tab">
+      <!--Grid de 2 columnas para tipos de posición-->
+      <h4 class="text-muted">Helpers de Posición</h4>
+    <div class="container mt-4">
+      <div class="row fw-bold border-bottom pb-2 mb-3">
+        <div class="col-md-6">Código Utilizado</div>
+        <div class="col-md-6">Resultado</div>
+      </div>
+
+      <div class="row align-items-center mb-3">
+        <div class="col-md-6">
+          <code class="text-dark">&lt;div class="position-static"&gt;Posición estática&lt;/div&gt;</code>
+        </div>
+        <div class="col-md-6">
+          <div class="position-static bg- p-2 border">Posición estática</div>
+        </div>
+      </div>
+
+      <div class="row align-items-center mb-3">
+        <div class="col-md-6">
+          <code class="text-dark">&lt;div class="position-relative"&gt;Posición relativa&lt;/div&gt;</code>
+        </div>
+        <div class="col-md-6">
+          <div class="position-relative bg-light p-2 border">Posición relativa</div>
+        </div>
+      </div>
+
+      <div class="row align-items-center mb-3">
+        <div class="col-md-6">
+          <code class="text-success">&lt;div class="position-absolute"&gt;Posición absoluta&lt;/div&gt;</code>
+        </div>
+        <div class="col-md-6">
+          <div class="position-absolute bg-success p-2 border" style="position: relative; top: 10px;">Posición absoluta</div>
+        </div>
+      </div>
+
+      <div class="row align-items-center mb-3">
+        <div class="col-md-6">
+          <code class="text-warning">&lt;div class="position-fixed"&gt;Posición fija&lt;/div&gt;</code>
+        </div>
+        <div class="col-md-6">
+          <div class="position-fixed bg-warning p-2 border" style="top: 10px; left: 10px;" >Posición fija</div>
+        </div>
+      </div>
+
+      <div class="row align-items-center mb-3">
+        <div class="col-md-6">
+          <code class="text-dark">&lt;div class="position-sticky"&gt;Posición sticky&lt;/div&gt;</code>
+        </div>
+        <div class="col-md-6">
+          <div class="position-sticky bg-light p-2 border">Posición sticky</div>
+        </div>
+      </div>
+
+      <div class="row align-items-center mb-3">
+        <div class="col-md-6">
+          <code class="text-dark">&lt;div class="top-0"&gt;Pegado arriba&lt;/div&gt;</code>
+        </div>
+        <div class="col-md-6">
+          <div class="top-0 bg-light p-2 border" >Pegado arriba</div>
+        </div>
+      </div>
+
+      <div class="row align-items-center mb-3">
+        <div class="col-md-6">
+          <code class="text-dark">&lt;div class="start-0"&gt;Pegado a la izquierda&lt;/div&gt;</code>
+        </div>
+        <div class="col-md-6">
+          <div class="start-0 bg-light p-2 border" >Pegado a la izquierda</div>
+        </div>
+      </div>
+
+      <div class="row align-items-center mb-3">
+        <div class="col-md-6">
+          <code class="text-primary">&lt;div class="translate-middle"&gt;Centrado absoluto&lt;/div&gt;</code>
+        </div>
+        <div class="col-md-6">
+          <div class="translate-middle bg-primary p-2 border te">Centrado absoluto</div>
+        </div>
+      </div>
+    </div>
+        
+    </div>
+    </div>
+
+
   </div>
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>
